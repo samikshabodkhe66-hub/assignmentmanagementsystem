@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <h2>Assignment Management System</h2>
+
+    <a href="index.html" class="logout">Logout</a>
+
+</header>
+
+
+<div class="dashboard">
+
+    <h1>Student Dashboard</h1>
+
+    <p>Welcome Student 👋</p>
+
+
+    <!-- Assignment 1 -->
+
+    <div class="assignment-card">
+
+        <h2>DBMS Assignment</h2>
+
+        <p>
+            Write SQL queries for creating tables,
+            keys and relationships.
+        </p>
+
+        <p>
+            <b>Deadline:</b> 05-10-2026
+        </p>
+
+        <form>
+
+            <label>Submit Your Work</label>
+
+            <input type="file">
+
+            <button type="submit">
+                Submit Assignment
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- Assignment 2 -->
+
+    <div class="assignment-card">
+
+        <h2>Operating System Assignment</h2>
+
+        <p>
+            Explain CPU scheduling algorithms
+            with suitable examples.
+        </p>
+
+        <p>
+            <b>Deadline:</b> 10-10-2026
+        </p>
+
+        <form>
+
+            <label>Submit Your Work</label>
+
+            <input type="file">
+
+            <button type="submit">
+                Submit Assignment
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- Submission Status -->
+
+    <div class="card">
+
+        <h2>My Submission Status</h2>
+
+        <table>
+
+            <tr>
+                <th>Assignment</th>
+                <th>Submitted On</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>DBMS Assignment</td>
+                <td>04-10-2026</td>
+                <td class="on-time">On Time</td>
+            </tr>
+
+            <tr>
+                <td>OS Assignment</td>
+                <td>11-10-2026</td>
+                <td class="late">Late</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
